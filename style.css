@@ -1,0 +1,33 @@
+h3 {
+    font-size: 25px !important;
+}
+.btn-success:hover {
+    background-color: rgb(150, 150, 224);
+}
+canvas {
+    margin-top: 100px;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from{box-shadow: 1px 1px 30px rgb(82, 11, 72);}
+    to{box-shadow: 1px 1px 30px rgb(22, 54, 114);}
+}
+body {
+text-align: center;
+background-image: "WOW.jpg";
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cool {
+    width: 170px;
+    height: 50px;
+    font-size:large;
+}
+
+#potatoes {
+    width: 250px;
+}
+
